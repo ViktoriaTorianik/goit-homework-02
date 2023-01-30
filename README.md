@@ -1,1 +1,2 @@
-# goit-homework-02
+# Goit-homework-1
+ homework

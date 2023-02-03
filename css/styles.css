@@ -24,18 +24,14 @@ background-color: #FFFFFF
     list-style: none;
 }  
 
-/* .link a{
-    text-decoration:none;
-}  */
 
 /* header styls */
-/* .top-line{ 
-   
-} */
 
 .top-line-nav{
     color:var(--headlines-font);
     text-decoration: none;
+    font-weight: 500;
+letter-spacing: 0.02em;
 }
 .top-line-nav:active{
     color:var(--background-color-button);
@@ -46,6 +42,10 @@ background-color: #FFFFFF
     color: var(--basic-font);
     text-decoration: none;
     font-style:normal;
+    
+}
+.font-adress:active{
+color: var(--background-color-button);
 }
 
 .logo{
@@ -55,6 +55,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 2;
 text-decoration: none;
+text-transform: uppercase;
 }
 .header-logo{
     color: var(--headlines-font);
@@ -84,21 +85,38 @@ align-items: center;
 letter-spacing: 0.04em;
 color:var(--secondary-font-color);
 }
+.hero-button:hover{
+    background-color: var(--background-color-button);
+}
 
 /* advantages */
 
 .scroll{
     color: var(--headlines-font);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 /* What are we doing */
 
 .title{
     color: var(--headlines-font);
+    font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 /* Our Team */
 .section-team{
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
+    
+}
+.card{
+    background-color: var(--secondary-font-color);
 }
 
 /* footer */
@@ -110,4 +128,27 @@ color:var(--secondary-font-color);
 }
 .footer-logo{
     color: var(--background-color-section);
+}
+/* портфолио */
+.filter-button{
+    color: var(--color-brand);
+    background-color: var(--background-color-section);
+    font-weight: 500;
+}
+.filter-button:hover{
+    color: var(--secondary-font-color);
+    background-color: var(--background-color-button);
+}
+.filter-scroll{
+    color: var(--headlines-font);
+}
+
+.filter-text{
+    color: var(--basic-font);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+.filter-link{
+    text-decoration: none;
 }

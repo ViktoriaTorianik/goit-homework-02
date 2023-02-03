@@ -1,0 +1,113 @@
+/* змінні текст фон видідення*/
+:root{
+    --basic-font: #434455;
+    --headlines-font:  #2E2F42;
+    --color-brand: #4D5AE5;
+    --background-color-button: #404BBF;
+   --background-color-section: #F4F4FD;
+   --secondary-font-color: #FFFFFF;
+   --iconfooter: #31D0AA;
+
+}
+
+body{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+background-color: #FFFFFF
+}
+
+ .list {
+    list-style: none;
+}  
+
+/* .link a{
+    text-decoration:none;
+}  */
+
+/* header styls */
+/* .top-line{ 
+   
+} */
+
+.top-line-nav{
+    color:var(--headlines-font);
+    text-decoration: none;
+}
+.top-line-nav:active{
+    color:var(--background-color-button);
+    
+}
+
+.font-adress{
+    color: var(--basic-font);
+    text-decoration: none;
+    font-style:normal;
+}
+
+.logo{
+font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 2;
+text-decoration: none;
+}
+.header-logo{
+    color: var(--headlines-font);
+}
+.logoaccent{
+    color: #4D5AE5;
+}
+/* hero */
+.hero{
+    background-color: var(--headlines-font);
+}
+.hero-font{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--secondary-font-color);
+}
+.hero-button{
+background: #4D5AE5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color:var(--secondary-font-color);
+}
+
+/* advantages */
+
+.scroll{
+    color: var(--headlines-font);
+}
+
+/* What are we doing */
+
+.title{
+    color: var(--headlines-font);
+}
+/* Our Team */
+.section-team{
+    background-color: #E5E5E5;;
+}
+
+/* footer */
+.footer{
+    background-color:var(--headlines-font) ;
+}
+.footer-text{
+    color:#E7E9FC;;
+}
+.footer-logo{
+    color: var(--background-color-section);
+}

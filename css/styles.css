@@ -37,6 +37,9 @@ letter-spacing: 0.02em;
     color:var(--background-color-button);
     
 }
+.top-line-nav:hover,:focus{
+    color: var(--background-color-button);
+}
 
 .font-adress{
     color: var(--basic-font);
@@ -44,9 +47,10 @@ letter-spacing: 0.02em;
     font-style:normal;
     
 }
-.font-adress:active{
+.font-adress:focus,:hover{
 color: var(--background-color-button);
 }
+
 
 .logo{
 font-family: Raleway, sans-serif;
@@ -110,6 +114,9 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
+.shadow{
+    text-shadow: 0px 4px 4px #000000;
+} 
 /* Our Team */
 .section-team{
     background-color: #E5E5E5;

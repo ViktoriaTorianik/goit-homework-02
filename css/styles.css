@@ -12,10 +12,7 @@
 
 body{
 font-family: Roboto, sans-serif;
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 1.5;
 color: #434455;
 background-color: #FFFFFF
 }
@@ -31,6 +28,7 @@ background-color: #FFFFFF
     color:var(--headlines-font);
     text-decoration: none;
     font-weight: 500;
+    line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .top-line-nav:active{
@@ -45,6 +43,8 @@ letter-spacing: 0.02em;
     color: var(--basic-font);
     text-decoration: none;
     font-style:normal;
+    line-height: 1.5;
+letter-spacing: 0.02em;
     
 }
 .font-adress:focus,:hover{
@@ -54,10 +54,9 @@ color: var(--background-color-button);
 
 .logo{
 font-family: Raleway, sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 2;
+line-height: 1.33;
 text-decoration: none;
 text-transform: uppercase;
 }
@@ -80,12 +79,13 @@ letter-spacing: 0.02em;
 color: var(--secondary-font-color);
 }
 .hero-button{
-background: #4D5AE5;
+background: var(--color-brand);
+font-family: Roboto, sans-serif;
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
+
 letter-spacing: 0.04em;
 color:var(--secondary-font-color);
 }
@@ -95,6 +95,18 @@ color:var(--secondary-font-color);
 
 /* advantages */
 
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .scroll{
     color: var(--headlines-font);
     font-weight: 500;
@@ -103,23 +115,25 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
+.scroll-text{
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 /* What are we doing */
 
 .title{
     color: var(--headlines-font);
     font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.shadow{
-    text-shadow: 0px 4px 4px #000000;
-} 
+ 
 /* Our Team */
 .section-team{
-    background-color: #E5E5E5;
+    background-color: var(--background-color-section);
     
 }
 .card{
@@ -131,23 +145,38 @@ text-transform: capitalize;
     background-color:var(--headlines-font) ;
 }
 .footer-text{
-    color:#E7E9FC;;
+    color:#E7E9FC;
+    line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .footer-logo{
     color: var(--background-color-section);
+}
+.line-logo{
+    line-height: 1.16;
 }
 /* портфолио */
 .filter-button{
     color: var(--color-brand);
     background-color: var(--background-color-section);
+    font-family: Roboto, sans-serif;
+font-style: normal;
     font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
-.filter-button:hover{
+.filter-button:hover, :focus{
     color: var(--secondary-font-color);
     background-color: var(--background-color-button);
 }
 .filter-scroll{
     color: var(--headlines-font);
+    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 .filter-text{

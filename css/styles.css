@@ -7,14 +7,15 @@
    --background-color-section: #F4F4FD;
    --secondary-font-color: #FFFFFF;
    --iconfooter: #31D0AA;
+   --text-footer-color: color: #E7E9FC;
 
 }
 
 body{
 font-family: Roboto, sans-serif;
 font-size: 16px;
-color: #434455;
-background-color: #FFFFFF
+color: var(--basic-font);
+background-color: var(--secondary-font-color)
 }
 
  .list {
@@ -35,7 +36,7 @@ letter-spacing: 0.02em;
     color:var(--background-color-button);
     
 }
-.top-line-nav:hover,:focus{
+.top-line-nav:hover, .top-line-nav:focus{
     color: var(--background-color-button);
 }
 
@@ -47,7 +48,7 @@ letter-spacing: 0.02em;
 letter-spacing: 0.02em;
     
 }
-.font-adress:focus,:hover{
+.font-adress:focus, .font-adress:hover{
 color: var(--background-color-button);
 }
 
@@ -57,6 +58,7 @@ font-family: Raleway, sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
+letter-spacing: 0.03em;
 text-decoration: none;
 text-transform: uppercase;
 }
@@ -87,6 +89,7 @@ font-size: 16px;
 line-height: 1.5;
 
 letter-spacing: 0.04em;
+cursor: pointer;
 color:var(--secondary-font-color);
 }
 .hero-button:hover{
@@ -146,7 +149,7 @@ text-transform: capitalize;
     background-color:var(--headlines-font) ;
 }
 .footer-text{
-    color:#E7E9FC;
+    color:var(--text-footer-color);
     line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -159,7 +162,7 @@ letter-spacing: 0.02em;
 /* портфолио */
 .filter-button{
     color: var(--color-brand);
-    background-color: var(--background-color-section);
+    
     font-family: Roboto, sans-serif;
 font-style: normal;
     font-weight: 500;
@@ -168,9 +171,9 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
-.filter-button:hover, :focus{
+.filter-button:hover, .filter-button:focus{
     color: var(--secondary-font-color);
-    background-color: var(--background-color-button);
+   
 }
 .filter-scroll{
     color: var(--headlines-font);
@@ -184,8 +187,9 @@ letter-spacing: 0.02em;
 .filter-text{
     color: var(--basic-font);
     font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .filter-link{
     text-decoration: none;

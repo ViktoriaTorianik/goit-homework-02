@@ -7,7 +7,7 @@
    --background-color-section: #F4F4FD;
    --secondary-font-color: #FFFFFF;
    --iconfooter: #31D0AA;
-   --text-footer-color: color: #E7E9FC;
+   --text-footer-color:  #e7e9fc;;
 
 }
 
@@ -149,7 +149,7 @@ text-transform: capitalize;
     background-color:var(--headlines-font) ;
 }
 .footer-text{
-    color:var(--text-footer-color);
+    color: var(--text-footer-color);
     line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -173,6 +173,7 @@ cursor: pointer;
 }
 .filter-button:hover, .filter-button:focus{
     color: var(--secondary-font-color);
+    background-color: var(--background-color-button);
    
 }
 .filter-scroll{
